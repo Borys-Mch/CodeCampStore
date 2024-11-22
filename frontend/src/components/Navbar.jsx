@@ -24,7 +24,7 @@ const Navbar = () => {
           bgClip={"text"}>
           <Link to={"/"}>Product Store 🛒</Link>
         </Text>
-        <HStack spaceX={2} alignItems={"center"}>
+        <HStack gap={2} alignItems={"center"}>
           <Link to={"/create"}>
             <Button>
               <CiSquarePlus fontSize={20} />
